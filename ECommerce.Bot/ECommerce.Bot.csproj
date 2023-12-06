@@ -1,0 +1,23 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net8.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+  </PropertyGroup>
+
+	<!-- <Compile Include="ECommerce.Bot.Services.UpdateHandler.cs" />
+	<Compile Include="ECommerce.Bot.Services.UpdateHandler.Register.cs">
+		<DependentUpon>ECommerce.Bot.Services.UpdateHandler.cs</DependentUpon>
+	</Compile> -->
+
+  <ItemGroup>
+    <PackageReference Include="Microsoft.Extensions.Hosting.Abstractions" Version="8.0.0" />
+    <PackageReference Include="Telegram.Bot" Version="19.0.0" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\ECommerce.Data\ECommerce.Data.csproj" />
+  </ItemGroup>
+
+</Project>
